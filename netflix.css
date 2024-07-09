@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    background-color:rgba(0,0,0,0);
+    font-family:sans-serif;
+}
+
+.main-header{
+    position:absolute;
+    background-image: url(images/Nfx.png);
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: -30px;
+    background-size:cover;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+}
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height:100vh;
+    background-image:url(images/Movies.png);
+    background-size: cover;
+}
+.wrapper{
+    width:30%;
+    height: 80vh;
+    background-color: rgba(19, 18, 18, 0.911);
+    color: rgb(112, 100, 100);
+    margin: 100px 90;
+    position:absolute;
+}
+.wrapper h1{
+    font-size:36px;
+    color:white;
+    text-align:left;
+    margin: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.wrapper .input-box{
+    width:100%;
+    height:7vh;
+    margin: 10px 0;
+    position:relative;
+    align-items: center;
+}
+.input-box input{
+    width: 70%;
+    height: 90%;
+    border:none;
+    border-radius: 2pt;
+    outline:none;
+    margin: 15px;
+    margin-left: 63px;
+    margin-right: 40px;
+    background-color:rgba(68, 63, 63, 0.808);
+    color:rgb(112, 100, 100);
+    font-size: 16px;
+    
+}
+.input-box input::placeholder{
+    color: rgb(112, 100, 100);
+    padding: 20px;
+}
+
+.input-box i{
+    position: absolute;
+    right:20px;
+    top:30%;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+.remember-forgot{
+    display:flex;
+    justify-content:space-between;
+    font-size: 14px;
+    font-weight:bold;
+    margin: 10px;
+    margin-bottom: 40%;
+    margin-left: 63px;
+    margin-right: 65px;
+}
+.remember-forgot label input{
+    accent-color: rgb(100, 83, 83);
+    margin-right: 3px;
+}
+.remember-forgot a{
+    color:white;
+    text-decoration: none;
+
+}
+.remember-forgot a:hover{
+    text-decoration:underline;
+}
+.btn{
+    width: 70%;
+    height: 45px;
+    background: rgb(211, 38, 38);
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius:5pt;
+    margin: 15px;
+    margin-left:63px;
+    border:none;
+}
+.another-login{
+    margin: 15px;
+    font-size:15px;
+    font-weight:bold;
+    margin-left:63px;
+}
+.facebook-image{
+    height: 15px;
+    width: 20px;
+    border-radius: 150px;
+    margin-right:3px;
+    float: left;
+}
+.register-link{
+    display:flex;
+    justify-content:space-between;
+    font-size: 15px;
+    margin: 15px;
+    font-weight: bold;
+    margin-left: 63px;
+    margin-right: 65px;
+}
+.register-link a{
+    color:white;
+    text-decoration: none;
+
+}
+.register-link a:hover{
+    text-decoration: underline;
+}
